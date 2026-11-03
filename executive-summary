@@ -1,0 +1,80 @@
+Executive Report
+Executive Summary
+
+The Online Retail dataset was analyzed to identify meaningful customer segments based on purchasing behavior. After data cleaning and preprocessing, customer-level features were created using the RFM framework, allowing the application of unsupervised machine learning techniques.
+
+K-Means clustering was selected as the primary segmentation model due to its scalability and interpretability. Alternative clustering approaches were also evaluated to validate segmentation quality.
+
+The project successfully identified distinct groups of customers that differ in terms of recency, purchasing frequency, and total spending.
+
+Key Findings
+1. Customer Value is Highly Uneven
+
+A relatively small proportion of customers generates a large share of total revenue.
+
+This suggests opportunities for:
+
+VIP customer programs
+Personalized promotions
+Loyalty initiatives
+2. Purchasing Behavior Varies Significantly
+
+Customers differ substantially in:
+
+Frequency of purchases
+Average order size
+Time since last purchase
+
+This confirms that a one-size-fits-all marketing strategy is inefficient.
+
+3. Several Low-Engagement Customer Segments Exist
+
+The analysis identified customers with:
+
+Low purchase frequency
+Low spending
+Long periods of inactivity
+
+These customers represent potential churn risks.
+
+4. Geographic Concentration
+
+Transaction volume is concentrated in a limited number of countries, indicating potential opportunities for market-specific campaigns.
+
+Strategic Recommendations
+High-Value Customers
+
+Implement:
+
+Exclusive offers
+Loyalty rewards
+Priority support
+At-Risk Customers
+
+Implement:
+
+Reactivation campaigns
+Discount incentives
+Personalized communications
+New Customers
+
+Implement:
+
+Onboarding journeys
+Early engagement campaigns
+Product recommendations
+Long-Term Analytics
+
+Develop predictive models for:
+
+Churn prediction
+Customer lifetime value estimation
+Revenue forecasting
+Technical Recommendations
+Apply log transformations to reduce skewness.
+Remove extreme outliers before clustering.
+Test HDBSCAN and Gaussian Mixture Models.
+Include behavioral features beyond RFM.
+Build a supervised customer-value prediction model.
+Automate retraining and monitoring pipelines.
+Deploy the dashboard to a cloud platform.
