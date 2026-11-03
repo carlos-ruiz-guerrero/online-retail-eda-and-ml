@@ -271,11 +271,8 @@ Key Takeaway
 
 This project demonstrates how raw transactional data can be transformed into actionable customer intelligence through data cleaning, feature engineering, machine learning, and interactive visual analytics. The resulting segmentation framework provides a practical foundation for improving customer engagement, retention, and long-term business value.
 
-Extra tip for GitHub
-
-Add something like this near the top of the README:
-
-Key Achievement: Developed an end-to-end customer segmentation solution using RFM analysis, K-Means clustering, and Streamlit visualization, transforming over 500,000 retail transactions into actionable customer insights.
+In conclussion 
+Developed an end-to-end customer segmentation solution using RFM analysis, K-Means clustering, and Streamlit visualization, transforming over 500,000 retail transactions into actionable customer insights.
 
 ---
 
