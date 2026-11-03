@@ -1,0 +1,25 @@
+##Notes to model improvement 
+
+#Future Improvements 
+
+Advanced Feature Engineering
+Average Order Value
+Basket Size
+Purchase Frequency Rate
+Customer Lifetime Value (CLV)
+Advanced Clustering
+Gaussian Mixture Models
+HDBSCAN
+Spectral Clustering
+Predictive Analytics
+
+#Create supervised models for:
+
+Revenue prediction
+Customer churn prediction
+High-value customer classification
+
+#Deployment
+Docker
+Azure App Service
+Streamlit Cloud
